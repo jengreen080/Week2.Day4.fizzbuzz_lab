@@ -9,5 +9,7 @@ def fizzbuzz(number):
         return "Fizz"
     elif number % 5 == 0 and number % 3 != 0:
         return "Buzz"
+    elif number % 3 == 0 and number % 5 ==0:
+        return "FizzBuzz"
     else:
-        return "error"
+        return str(number)
